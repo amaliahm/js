@@ -1,0 +1,38 @@
+[
+    {
+        "image" : "img01.jpg",
+        "name" : "amina ghandouz" ,
+        "job" : "web dev",
+        "more" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas natus reiciendis eius. Nulla eligendi, sequi officiis placeat asperiores"
+    },
+    {
+        "image" : "img02.jpg",
+        "name" : "kenza" ,
+        "job" : "web dev",
+        "more" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas natus reiciendis eius. Nulla eligendi, sequi officiis placeat asperiores"
+    },
+    {
+        "image" : "img03.jpg",
+        "name" : "soumia" ,
+        "job" : "nouna",
+        "more" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas natus reiciendis eius. Nulla eligendi, sequi officiis placeat asperiores"
+    },
+    {
+        "image" : "img04.jpg",
+        "name" : "ikram" ,
+        "job" : "bayotifol",
+        "more" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas natus reiciendis eius. Nulla eligendi, sequi officiis placeat asperiores"
+    },
+    {
+        "image" : "img05.jpg",
+        "name" : "aya" ,
+        "job" : "amina u're so talkative",
+        "more" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas natus reiciendis eius. Nulla eligendi, sequi officiis placeat asperiores"
+    },
+    {
+        "image" : "img06.jpg",
+        "name" : "steve" ,
+        "job" : "el'te3rach",
+        "more" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas natus reiciendis eius. Nulla eligendi, sequi officiis placeat asperiores"
+    }
+]

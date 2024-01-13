@@ -1,0 +1,79 @@
+[
+    {
+        "img" : "img01.jpg",
+        "name" : "food",
+        "price" : 25,
+        "kind" : "break-fast",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img02.jpg",
+        "name" : "food",
+        "price" : 30,
+        "kind" : "food",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img03.jpg",
+        "name" : "food",
+        "price" : 25,
+        "kind" : "break-fast",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img04.jpg",
+        "name" : "food",
+        "price" : 30,
+        "kind" : "drink",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img05.jpg",
+        "name" : "food",
+        "price" : 35,
+        "kind" : "break-fast",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img06.jpg",
+        "name" : "food",
+        "price" : 28,
+        "kind" : "break-fast",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img07.jpg",
+        "name" : "food",
+        "price" : 5,
+        "kind" : "food",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img08.jpg",
+        "name" : "food",
+        "price" : 7,
+        "kind" : "break-fast",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img09.jpg",
+        "name" : "food",
+        "price" : 16,
+        "kind" : "drink",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img10.jpg",
+        "name" : "food",
+        "price" : 23,
+        "kind" : "drink",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    },
+    {
+        "img" : "img11.jpg",
+        "name" : "food",
+        "price" : 78,
+        "kind" : "food",
+        "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt iure odio voluptate,"
+    }
+]

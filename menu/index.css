@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: math;
+}
+
+h1 {
+    /* position: relative;
+    top: -10vh; */
+    letter-spacing: 10px;
+    font-size: 66px;
+    padding: 5px 10px;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: cornflowerblue;
+    border-bottom: 1px solid rgba(100, 149, 237, 0.5);
+}
+
+.conditions {
+    /* position: relative;
+    top: -10vh; */
+    padding: 10px;
+}
+
+.conditions button {
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.2s;
+    background-color: rgba(100, 149, 237, 0.4);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.conditions button:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.conditions button.is {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+    background-color: rgba(100, 149, 237, 1);
+    color: white;
+}
+
+.show {
+    /* position: relative;
+    top: -5vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
+    width: 90%;
+    list-style: none;
+}
+
+.show li.is {
+    background-color: rgb(61, 59, 47);
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(100, 149, 237, 0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.show li.is:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.show li.is .photo {
+    width: 400px;
+    height: 100px;
+    background-image: url('img01.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid rgba(100, 149, 237, 0.4);
+}
+
+.show li.is .info {
+    padding: 2px;
+}
+
+.show li.is .info .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show li.is .info hr {
+    width: 98%;
+    height: 1px;
+    border: 1px solid rgba(100, 149, 237, 0.7);
+}
+
+.show li.is .info .description {
+    letter-spacing: 2px;
+}
+
+.show li {
+    display: none;
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "title" : "why we use <br> element",
+        "answer_1" : "to make the text bold",
+        "answer_2" : "to make the text italic",
+        "answer_3" : "to add break line",
+        "answer_4" : "to create horizontal line",
+        "right_answer" : "to add break line"
+    },
+    {
+        "title" : "is <img> element has attribute href",
+        "answer_1" : "yeah",
+        "answer_2" : "no , it's for another tag <a>",
+        "answer_3" : "all elements have this attribute",
+        "answer_4" : "answer 1 and 3",
+        "right_answer" : ",o it's for another tag <a>"
+    },
+    {
+        "title" : "how can we make text element bold",
+        "answer_1" : "putting it inside <b> tag",
+        "answer_2" : "putting it inside <string> tag",
+        "answer_3" : "customizing it with font-weight property in css",
+        "answer_4" : "all answers are right",
+        "right_answer" : "all answers are right"
+    },
+    {
+        "title" : "what's the right hierarchy for creating part og page",
+        "answer_1" : "<h2> then <p> then <h1> then <p> then <h3> then <p> then <img>",
+        "answer_2" : "<h1> then <p> then <h3> then <p> then <h2> then <p> then <img>",
+        "answer_3" : "<h2> then <p> then <h3> then <p> then <h1> then <p> then <img>",
+        "answer_4" : "all solutions are wrong",
+        "right_answer" : "all solutions are wrong"
+    },
+    {
+        "title" : "how can we include external page inside our HTML page",
+        "answer_1" : "by using include in HTML",
+        "answer_2" : "by using load in HTML",
+        "answer_3" : "by using iFrame tag",
+        "answer_4" : "all solutions are wrong",
+        "right_answer" : "by using iFrame tag"
+    },
+    {
+        "title" : "what's the tag that doesn't exist in HTML",
+        "answer_1" : "<object>",
+        "answer_2" : "<basefont>",
+        "answer_3" : "<abbr>",
+        "answer_4" : "all tags exist in HTML",
+        "right_answer" : "all tags exist in HTML"
+    },
+    {
+        "title" : "how we specify document type of HTML5 page",
+        "answer_1" : "<DOCTYPE html>",
+        "answer_2" : "<DOCTYPE html5>",
+        "answer_3" : "<!DOCTYPE html5>",
+        "answer_4" : "<!DOCTYPE html>",
+        "right_answer" : "<!DOCTYPE html>"
+    },
+    {
+        "title" : "what's the element that doesn't exist in HTML semantics",
+        "answer_1" : "<article>",
+        "answer_2" : "<section>",
+        "answer_3" : "<blockquote>",
+        "answer_4" : "<aside>",
+        "right_answer" : "<blockquote>"
+    },
+    {
+        "title" : "in HTML can we use this way to add attributes",
+        "answer_1" : "<div class='class-name'>",
+        "answer_2" : "<div class=class-name>",
+        "answer_3" : "<div class=\"class-name\">",
+        "answer_4" : "all answers are right",
+        "right_answer" : "all answers are right"
+    }
+]
