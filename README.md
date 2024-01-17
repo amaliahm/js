@@ -1,1 +1,1 @@
-some js projects
+some of js projects that i did while learning
