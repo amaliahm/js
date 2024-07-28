@@ -24,25 +24,45 @@ function CheckItem() {
             results.innerHTML = `No local item with teh name <span>${theInput.value}</span>`
         }
     } else {
-        checkInput()
+        ShowMassage()
     }
 }
 
 function AddItem() {
-    console.log('add')
-    checkInput()
+    if (theInput.value !== '') {
+        localStorage.setItem(theInput.value, 'try')
+        results.innerHTML = `Local storage item <span>${theInput.value}</span> added`
+        theInput.value = ''
+    } else {
+        ShowMassage()
+    }
 }
 
 function DeleteItem() {
-    console.log('delete')
-    checkInput()
+    if (theInput.value !== '') {
+        if (localStorage.getItem(theInput.value)) {
+            localStorage.removeItem(theInput.value)
+            results.innerHTML = `Local item called <span>${theInput.value}</span> deleted`
+            theInput.value = ''
+        } else {
+            results.innerHTML = `No local item with teh name <span>${theInput.value}</span>`
+        }
+    } else {
+        ShowMassage()
+    }
 }
 
 function ShowItems() {
-    console.log('show')
-    checkInput()
+    if (localStorage.length) {
+        results.innerHTML = ''
+        for (let [key, value] of Object.entries(localStorage)) {
+            results.innerHTML += `<span class='keys'>${key}</span> `
+        }
+    } else {
+        results.innerHTML = `Local storage is empty`
+    }
 }
 
-function checkInput() {
+function ShowMassage() {
     results.innerHTML = "Input can't be empty"
 }
