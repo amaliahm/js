@@ -26,6 +26,13 @@ function getRepos () {
                 theUrl.setAttribute('target', '_blank')
                 mainDiv.appendChild(theUrl)
 
+                let startsSpan = document.createElement('span')
+                let starsText = document.createTextNode(`Stars: ${repo.stargazers_count}`)
+                startsSpan.appendChild(starsText)
+                mainDiv.appendChild(startsSpan)
+
+                mainDiv.className = 'repo-box'
+
                 reposData.appendChild(mainDiv)
             });
         })
